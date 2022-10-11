@@ -36,15 +36,15 @@ body {
   flex: 1;
 }
 .taskBg .wrap {
-  position: absolute;
-  top: 50%;
   transform: translateY(-50%);
-  right: 15px;
   width: auto;
-  display: inline-block;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 .taskBg .taskText {
   flex: 1;
+  align-items: center;
 }
 .taskBg .wrap span {
   display: inline-block;
